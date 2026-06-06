@@ -16,9 +16,9 @@ export default function HomePage() {
   };
 
   return (
-    <main className="h-dvh w-full bg-blue-200 text-slate-800 font-sans selection:bg-indigo-200 selection:text-indigo-950 flex flex-col items-center justify-center">
-      <div className="w-full max-w-7xl w-full px-4 h-[90vh] max-h-[900px] flex flex-col">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 h-full min-h-0">
+    <main className="min-h-dvh w-full bg-blue-200 text-slate-800 font-sans selection:bg-indigo-200 selection:text-indigo-950 flex flex-col items-center">
+      <div className="w-full max-w-7xl px-4 py-6 flex-1 flex flex-col">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1">
           {/* Left Column */}
           <section className="flex flex-col gap-6 h-full min-h-0 overflow-y-auto lg:overflow-hidden">
             {/* Top Container - Dynamic Height */}
